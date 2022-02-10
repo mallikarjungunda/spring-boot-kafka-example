@@ -1,0 +1,8 @@
+message: Welcome to Spring Boot Training App Config YAML
+
+logging:
+  file:
+    name: spring1.log
+  level:
+    root: INFO
+

@@ -1,0 +1,104 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Shopping Cart",
+		"_postman_id": "1e7c4367-41f4-d8e0-4a7b-de27ec049bb9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Product",
+			"request": {
+				"url": "localhost:8111/shoppingcart/api/products",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : \"101\",\n\t\"name\" : \"Galaxy M30\",\n\t\"category\" : \"Mobiles\",\n\t\"manufacturer\": \"Samsung\",\n\t\"price\": 15000\n}"
+				},
+				"description": "Create Product"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products",
+			"request": {
+				"url": "localhost:8111/shoppingcart/api/products",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create Customer",
+			"request": {
+				"url": "localhost:8111/shoppingcart/api/customers",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Manjeet\",\n\t\"creditLimit\":10000,\n\t\"age\":40,\n\t\"gender\":\"Male\",\n\t\"address\":\"Bangalore\",\n\t\"location\":\"India\",\n\t\"prime\":true\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Customers",
+			"request": {
+				"url": "localhost:8111/shoppingcart/api/customers",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create Order",
+			"request": {
+				"url": "localhost:8111/shoppingcart/api/orders",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"customerId\": 1,\n\t\"productId\": 102,\n\t\"quantity\": 1,\n\t\"price\": 10000\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orders",
+			"request": {
+				"url": "localhost:8111/shoppingcart/api/orders",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

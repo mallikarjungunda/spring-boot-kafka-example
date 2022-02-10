@@ -1,0 +1,30 @@
+<!-- <?xml version = "1.0" encoding = "UTF-8"?> -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="greetings" class="com.examples.spring.boot.Greetings"> <!-- init-method="init" destroy-method="cleanup"> -->
+		<property name="message" value="Welcome to Spring Boot Training XML Config :)"/>		
+	</bean>
+
+	<bean id="greetings1" class="com.examples.spring.boot.Greetings">
+		<constructor-arg name="message" value="Welcome to Spring Boot Training :) Constructor argumnet"> </constructor-arg>
+	</bean>
+	
+	<bean id="greetings2" class="com.examples.spring.boot.Greetings">
+		<!-- Constructor resolution based on name -->
+		<constructor-arg name="message1" value="Welcome to Spring Boot Training :)" />
+		<constructor-arg name="message2" value="Constructor arguments resolution example" />
+		
+		<!-- Constructor resolution based on type -->
+<!-- 		<constructor-arg type="String" value="Welcome to Spring Framework Training :)" />
+		<constructor-arg type="String" value="Constructor arguments resolution example" /> -->
+		
+		<!-- Constructor resolution based on type -->
+<!-- 		<constructor-arg index="0" value="Welcome to Spring Framework Training :)" />
+		<constructor-arg index="1" value="Constructor arguments resolution example" /> -->
+	</bean>
+	
+</beans>

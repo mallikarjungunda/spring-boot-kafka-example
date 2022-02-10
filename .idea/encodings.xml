@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/shopping-cart-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-cart-customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-cart-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-cart-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-cart-product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-cart-registry-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

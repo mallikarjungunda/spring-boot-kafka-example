@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopping-cart-customer-service" />
+        <module name="shopping-cart-registry-service" />
+        <module name="shopping-cart-order-service" />
+        <module name="shopping-cart-product-service" />
+        <module name="shopping-cart-admin" />
+        <module name="shopping-cart-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shopping-cart-admin" target="1.8" />
+      <module name="shopping-cart-customer-service" target="1.8" />
+      <module name="shopping-cart-gateway" target="1.8" />
+      <module name="shopping-cart-order-service" target="1.8" />
+      <module name="shopping-cart-product-service" target="1.8" />
+      <module name="shopping-cart-registry-service" target="1.8" />
+      <module name="spring-boot-kafka-example" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shopping-cart-admin" options="-parameters" />
+      <module name="shopping-cart-customer-service" options="-parameters" />
+      <module name="shopping-cart-gateway" options="-parameters" />
+      <module name="shopping-cart-order-service" options="-parameters" />
+      <module name="shopping-cart-product-service" options="-parameters" />
+      <module name="shopping-cart-registry-service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+	http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.malliktalksjava.springboot</groupId>
+    <artifactId>spring-boot-kafka-example</artifactId>
+    <packaging>pom</packaging>
+    <name>Spring Boot Kafka Example</name>
+    <description>Spring Boot Kafka Example</description>
+    <version>1.0</version>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.4</version>
+    </parent>
+
+    <modules>
+        <module>shopping-cart-admin</module>
+        <module>shopping-cart-customer-service</module>
+        <module>shopping-cart-gateway</module>
+        <module>shopping-cart-order-service</module>
+        <module>shopping-cart-product-service</module>
+        <module>shopping-cart-registry-service</module>
+        <!--
+        <module>spring-boot-core-examples</module>
+        <module>spring-boot-core-profile</module>
+        -->
+    </modules>
+
+
+    <build>
+        <plugins>
+            <!-- Package as an executable jar/war -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

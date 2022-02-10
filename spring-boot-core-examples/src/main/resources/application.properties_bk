@@ -1,0 +1,9 @@
+spring.application.name=SpringBootDemo
+
+logging.file.name==spring.log
+logging.level.root=INFO
+
+message=Welcome to Spring Boot Training External Config :) UPDATED
+name=Paul
+
+general.message="General message"

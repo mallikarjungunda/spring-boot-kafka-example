@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shopping-cart-admin/shopping-cart-admin.iml" filepath="$PROJECT_DIR$/shopping-cart-admin/shopping-cart-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-cart-customer-service/shopping-cart-customer-service.iml" filepath="$PROJECT_DIR$/shopping-cart-customer-service/shopping-cart-customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-cart-gateway/shopping-cart-gateway.iml" filepath="$PROJECT_DIR$/shopping-cart-gateway/shopping-cart-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-cart-order-service/shopping-cart-order-service.iml" filepath="$PROJECT_DIR$/shopping-cart-order-service/shopping-cart-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-cart-product-service/shopping-cart-product-service.iml" filepath="$PROJECT_DIR$/shopping-cart-product-service/shopping-cart-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-cart-registry-service/shopping-cart-registry-service.iml" filepath="$PROJECT_DIR$/shopping-cart-registry-service/shopping-cart-registry-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-kafka-example.iml" filepath="$PROJECT_DIR$/spring-boot-kafka-example.iml" />
+    </modules>
+  </component>
+</project>
